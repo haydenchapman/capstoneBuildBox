@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Build Box</title>
+</head>
+
+<body>
+    <header>
+        <h1>Auto Mod Build Box</h1>
+        <h3>Add and store custom car builds & modifications. Create mod lists and calculate build costs.</h3>
+        <section>
+            <h3>
+            <a href="">My Garage</a>
+                 <a href="">Gallery</a>
+                 <a href="">My mods</a> 
+                 <a href="">Search</a></section>
+            </h3>
+    </header>
+
+    <main>
+        
+        <section id="inputBox">
+            <h1>Add new build!</h1>
+            <input id="yearInput" placeholder="add year"></input>
+            <br>
+            <br>
+            <input id="makeInput" placeholder="add make"></input>
+            <input id="modelInput" placeholder="add model"></input>
+            <input id="colorInput" placeholder="add color"></input>
+            <br>
+            <br>
+            Choose Auto Type: <select id="typeInput" ><option>Sedan</option><option>Coupe</option><option>Hatchback</option><option>SUV</option><option>Truck</option></select></select>
+            <br>
+            <br>
+            <input id="imageInput" placeholder="add image URL here..."></input>
+            <br>
+            <br>
+            Modlist:
+            <input id="modsInput" placeholder="enter modifications here..."></input>
+            <div>Pls seperate mods by comma.</div>
+            <button id="addCar">Submit this build.</button>
+
+        </section>
+        <h1>My garage build lists:</h1>
+        <section id="carDisplay"></section>
+        <section id="gallery">
+            <h1>Garage Gallery</h1>
+        </section>
+        <section id="myMods">
+            <h1>My Mods</h1>
+        </section>
+        </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

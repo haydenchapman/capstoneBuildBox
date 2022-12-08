@@ -1,0 +1,39 @@
+
+[
+    {
+        "id": 0,
+        "make": "Subaru",
+        "model": "Impreza WRX STI",
+        "color": "World Rally Blue",
+        "picture": "https://images.unsplash.com/photo-1662831020052-423c276b7dfa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80",
+        "milage": 55232,
+        "year": 2003,
+        "type": "Sedan",
+        "likes": 3,
+        "mods": ["HKS Cat-Back Exhaust", "HKS Blow Off Valve", "Injen Cold Air Intake"]
+    },
+    {
+        "id": 1,
+        "make": "Nissan",
+        "model": "Skyline GTR R34",
+        "color": "Midnight Pearl Black",
+        "picture": "https://images.unsplash.com/photo-1612935459272-8e8101c4e7ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+        "milage": 11921,
+        "year": 2001,
+        "type": "Coupe",
+        "likes": 5,
+        "mods": []
+    },
+    {
+        "id": 2,
+        "make": "Mazda",
+        "model": "RX-7",
+        "color": "Custom Skyline Midnight Purple Wrap",
+        "picture": "https://images.unsplash.com/photo-1582910185716-757e0e0efe27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG1hemRhJTIwcng3fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "milage": 27798,
+        "year": 2001,
+        "type": "Coupe",
+        "likes": 2,
+        "mods": []
+    }
+]
